@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_008_002_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>8</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[&Uuml;berspringe nicht implementierte Tests]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[<b>Attention:</b> You have not entered anything in the <i>Task&nbsp;text</i>&nbsp;field of the <i>Data&nbsp;input</i>&nbsp;section yet or you have not updated the worksheet afterwards using the <i>Create&nbsp;eSheet</i>&nbsp;button!]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[class Fernseher:]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;def __init__(self):]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.angeschaltet = False]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;def schalte_an(self):]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.angeschaltet = True]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[def schaue_ARD_test():]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;# Überspringe den test, da er noch nicht implementiert ist.]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;gap;000]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;]]></line>
+		<line><![CDATA[]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[skip()]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>10</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>5</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>10</endPosition>
+	</gapEndPositions>
+
+</esheet>

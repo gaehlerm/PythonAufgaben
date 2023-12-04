@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_001_005_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>1</kapitelNrTxt>
+
+	<abschnittNrTxt>5</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>0</curDifficulty>
+
+	<tasktitle><![CDATA[pip]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Installieren Sie pip Pakete]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[> # installieren Sie das Paket 'numpy']]></line>
+		<line><![CDATA[> gap;000 numpy]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[> # istallieren Sie die pip Pakete aus der requirements.txt Datei]]></line>
+		<line><![CDATA[> pip install gap;001]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[> # installieren Sie Flask Version 2.2.1]]></line>
+		<line><![CDATA[> pip install gap;002]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[pip install]]></filling>
+			<filling><![CDATA[pip3 install]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[-r requirements.txt]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[Flask==2.2.1]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[Richtig - Sowohl `pip install`, als auch `pip3 install` sind korrekt.]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Korrekt]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[requirements.txt]]></answer>
+				<negFeedback><![CDATA[Falsch - Sie haben das `-r` vor dem `requirements.txt` vergessen.]]></negFeedback>
+			</item>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[Flask]]></answer>
+				<negFeedback><![CDATA[Falsch - Sie haben die Versionsnummer nicht angegeben. Die Richtige L&ouml;sung ist `Flask==2.2.1']]></negFeedback>
+			</item>
+			<item>
+				<answer><![CDATA[Flask=2.2.1]]></answer>
+				<negFeedback><![CDATA[Falsch - Die Versionsnummer wird mit `==` angegeben: `Flask==2.2.1`]]></negFeedback>
+			</item>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Der korrekte Befehl ist `pip3 install`]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - ]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Das richtige Kommando ist `Flask==2.2.1`]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>8</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>3</startPosition>
+		<startPosition>15</startPosition>
+		<startPosition>15</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>13</endPosition>
+		<endPosition>33</endPosition>
+		<endPosition>26</endPosition>
+	</gapEndPositions>
+
+</esheet>

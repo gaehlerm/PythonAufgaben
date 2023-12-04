@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_004_004_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>4</kapitelNrTxt>
+
+	<abschnittNrTxt>4</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[dict Interation]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Hier lernen wir, wie man &uuml;ber dicts iteriert.<br/>Beachte, dass die Reihenfolge der Elemente eines dicts erst seit Python 3.6 geordnet zur&uuml;ckgegeben werden.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> postleitzahlen= {]]></line>
+		<line><![CDATA[...     \"Berlin\": 10115,]]></line>
+		<line><![CDATA[...     \"Hamburg\": 20095,]]></line>
+		<line><![CDATA[...     gap;000 ]]></line>
+		<line><![CDATA[... }]]></line>
+		<line><![CDATA[>>> gap;001 gap;002]]></line>
+		<line><![CDATA[...     print(stadt)]]></line>
+		<line><![CDATA[... ]]></line>
+		<line><![CDATA[Berlin]]></line>
+		<line><![CDATA[gap;003]]></line>
+		<line><![CDATA[München]]></line>
+		<line><![CDATA[>>> for PLZ in postleitzahlengap;004:]]></line>
+		<line><![CDATA[...     print(PLZ)]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[10115]]></line>
+		<line><![CDATA[20095]]></line>
+		<line><![CDATA[gap;005]]></line>
+		<line><![CDATA[>>> for gap;006 in postleitzahlengap;007:]]></line>
+		<line><![CDATA[...     print(f\"{stadt} hat die Postleitzahl {PLZ}\")]]></line>
+		<line><![CDATA[... ]]></line>
+		<line><![CDATA[Berlin hat die Postleitzahl 10115]]></line>
+		<line><![CDATA[Hamburg hat die Postleitzahl 20095]]></line>
+		<line><![CDATA[München hat die Postleitzahl 80331]]></line>
+		<line><![CDATA[]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[\"München\": 80331]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[for stadt in]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[postleitzahlen:]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[Hamburg]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[.values()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[80331]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[stadt, PLZ]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[.items()]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>4</lineNumber>
+		<lineNumber>6</lineNumber>
+		<lineNumber>6</lineNumber>
+		<lineNumber>10</lineNumber>
+		<lineNumber>12</lineNumber>
+		<lineNumber>17</lineNumber>
+		<lineNumber>18</lineNumber>
+		<lineNumber>18</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>9</startPosition>
+		<startPosition>5</startPosition>
+		<startPosition>18</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>30</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>9</startPosition>
+		<startPosition>37</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>24</endPosition>
+		<endPosition>16</endPosition>
+		<endPosition>32</endPosition>
+		<endPosition>7</endPosition>
+		<endPosition>38</endPosition>
+		<endPosition>5</endPosition>
+		<endPosition>18</endPosition>
+		<endPosition>44</endPosition>
+	</gapEndPositions>
+
+</esheet>

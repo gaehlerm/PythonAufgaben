@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_002_005_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>2</kapitelNrTxt>
+
+	<abschnittNrTxt>5</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[String Methoden]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[In dieser &Uuml;bung befassen wir uns mit Methoden, welche auf Strings wirken.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> \"Schlange\".islower()]]></line>
+		<line><![CDATA[gap;000]]></line>
+		<line><![CDATA[>>> \"Haus\".gap;001]]></line>
+		<line><![CDATA[gap;002]]></line>
+		<line><![CDATA[>>> \"Auto\".gap;003]]></line>
+		<line><![CDATA[gap;004]]></line>
+		<line><![CDATA[>>> mein_auto = \"BMW\"]]></line>
+		<line><![CDATA[>>> mein_auto.lower()]]></line>
+		<line><![CDATA[gap;005]]></line>
+		<line><![CDATA[>>> print(mein_auto)]]></line>
+		<line><![CDATA[gap;006]]></line>
+		<line><![CDATA[>>> \"baum\".gap;007]]></line>
+		<line><![CDATA[gap;008]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[False]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[isupper()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[True]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[lower()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[auto]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[bmw]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[BMW]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[capitalize()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[Baum]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>3</lineNumber>
+		<lineNumber>4</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>6</lineNumber>
+		<lineNumber>9</lineNumber>
+		<lineNumber>11</lineNumber>
+		<lineNumber>12</lineNumber>
+		<lineNumber>13</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>1</startPosition>
+		<startPosition>12</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>12</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>12</startPosition>
+		<startPosition>1</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>5</endPosition>
+		<endPosition>20</endPosition>
+		<endPosition>4</endPosition>
+		<endPosition>18</endPosition>
+		<endPosition>4</endPosition>
+		<endPosition>3</endPosition>
+		<endPosition>3</endPosition>
+		<endPosition>23</endPosition>
+		<endPosition>4</endPosition>
+	</gapEndPositions>
+
+</esheet>

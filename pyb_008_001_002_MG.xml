@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_008_001_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>8</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[git]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Initialisieren Sie das git repo]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[$ git init]]></line>
+		<line><![CDATA[$ git gap;000 -A]]></line>
+		<line><![CDATA[$ git gap;001 -m \"Repository initialisieren\"]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[add]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[commit]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>3</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>7</startPosition>
+		<startPosition>7</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>9</endPosition>
+		<endPosition>12</endPosition>
+	</gapEndPositions>
+
+</esheet>

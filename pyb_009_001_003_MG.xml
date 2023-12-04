@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_009_001_003_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>9</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>3</beispielNrTxt>
+
+	<curDifficulty>0</curDifficulty>
+
+	<tasktitle><![CDATA[Strip]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Entfernen Sie die &uuml;berfl&uuml;ssigen Leerzeichen im String.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> zeile = \" Entfernen Sie die überflüssigen Leerzeichen.   \"]]></line>
+		<line><![CDATA[>>> zeile.gap;000]]></line>
+		<line><![CDATA['Entfernen Sie die überflüssigen Leerzeichen.']]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[strip()]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>11</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>17</endPosition>
+	</gapEndPositions>
+
+</esheet>

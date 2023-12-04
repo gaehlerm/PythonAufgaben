@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_002_002_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>2</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>0</curDifficulty>
+
+	<tasktitle><![CDATA[verbundene Strings]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Verbinden Sie Strings mit dem + Operator]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> # Verbinden Sie die beiden Strings]]></line>
+		<line><![CDATA[>>> \"he\" gap;000 \" du da!\"]]></line>
+		<line><![CDATA[he gap;001]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[+]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[du da!]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[Richtig - Strings werden mit dem <code>+</code> Operator verbunden.]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>3</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>10</startPosition>
+		<startPosition>4</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>10</endPosition>
+		<endPosition>9</endPosition>
+	</gapEndPositions>
+
+</esheet>

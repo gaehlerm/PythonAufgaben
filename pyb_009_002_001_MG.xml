@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_009_002_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>9</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[http anfragen]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[In dieser Aufgabe &uuml;ben Sie, wie man mit Python http Anfragen machen kann.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> import gap;000]]></line>
+		<line><![CDATA[>>> url = \"https://cdn.learnenough.com/phrases.txt\"]]></line>
+		<line><![CDATA[>>> antwort = gap;001.gap;002(url)]]></line>
+		<line><![CDATA[>>> antwort.text ]]></line>
+		<line><![CDATA['A butt tuba\nA bad penny always turns up.\ [...]']]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[requests]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[requests]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[get]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>1</lineNumber>
+		<lineNumber>3</lineNumber>
+		<lineNumber>3</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>12</startPosition>
+		<startPosition>15</startPosition>
+		<startPosition>24</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>19</endPosition>
+		<endPosition>22</endPosition>
+		<endPosition>26</endPosition>
+	</gapEndPositions>
+
+</esheet>

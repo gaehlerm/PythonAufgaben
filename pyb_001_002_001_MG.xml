@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_001_001_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>1</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>0</curDifficulty>
+
+	<tasktitle><![CDATA[print]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Machen Sie sich mit dem print command vertraut.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[# Schreibe Code mit der Ausgabe 'Hallo Michael']]></line>
+		<line><![CDATA[print(gap;000)]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[print(\"Oh\", \"Hallo\")]]></line>
+		<line><![CDATA[# Ausgabe: gap;001]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[\"Hallo Michael\"]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[Oh Hallo]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[\"Oh Hallo\"]]></answer>
+				<negFeedback><![CDATA[Falsch - Die Ausgabe hat keine Anf&uuml;hrungs- und Schlusszeichen.]]></negFeedback>
+			</item>
+			<item>
+				<answer><![CDATA[Oh, Hallo]]></answer>
+				<negFeedback><![CDATA[Falsch - Die W&ouml;rter sind nur durch ein Leerzeichen separiert, nicht durch ein Komma]]></negFeedback>
+			</item>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch. Um einen String widerzugeben, braucht es Anf&uuml;hrungs- und Schlusszeichen.]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Die richtige Antwort ist: Oh Hallo<br/>(\"Oh\", \"Hallo\") ist ein so genanntes Tupel mit den Elementen \"Oh\" und \"Hallo\". Die Elemente eines Tupels werden mit einem Leerschlag separiert ausgegeben.]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>5</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>7</startPosition>
+		<startPosition>12</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>21</endPosition>
+		<endPosition>19</endPosition>
+	</gapEndPositions>
+
+</esheet>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_002_002_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>2</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>0</curDifficulty>
+
+	<tasktitle><![CDATA[Strings und Variablen]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Machen Sie sich damit vertraut, wie man mit Strings als Variablen verwenden kann.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> # definieren Sie eine Variable `gruss` mit dem Wert gap;000]]></line>
+		<line><![CDATA[>>> gap;001 \"Hallo\"]]></line>
+		<line><![CDATA[>>> # definieren Sie eine Variable `gap;002` mit dem Wert \"Berlin\"]]></line>
+		<line><![CDATA[>>> hauptstadt = gap;003]]></line>
+		<line><![CDATA[>>> # Verwenden Sie die oben definierten Variablen um den f-string zu vervollständigen]]></line>
+		<line><![CDATA[>>> print(f\"Ich bin in gap;004\")]]></line>
+		<line><![CDATA[Ich bin in gap;005]]></line>
+		<line><![CDATA[>>> # Verwenden Sie nun beide Variablen um den f-string zu vervollständigen]]></line>
+		<line><![CDATA[>>> print(f\"gap;006\")]]></line>
+		<line><![CDATA[Hallo Berlin]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[\"Hallo\"]]></filling>
+			<filling><![CDATA['Hallo']]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[gruss =]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[hauptstadt]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[\"Berlin\"]]></filling>
+			<filling><![CDATA['Berlin']]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[{hauptstadt}]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[Berlin]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[{gruss} {hauptstadt}]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig - Sowohl 'Berlin' als auch \"Berlin\" sind korrekt]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig - Gibt es im Berliner Zoo Pythons?]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+			<item>
+				<answer><![CDATA[Hallo]]></answer>
+				<negFeedback><![CDATA[Bei <code>Hallo</code> handelt es sich um einen String, weshalb die L&ouml;sung mit \"\" Zeichen korrekt w&auml;re. Es handelt sich aber nur um ein Detail.]]></negFeedback>
+			</item>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[Berlin]]></answer>
+				<negFeedback><![CDATA[Falsch - Sie haben die f&uuml;r einen String ben&ouml;tigten Anf&uuml;hrungs- und Schlusszeichen vergessen.]]></negFeedback>
+			</item>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[Hallo Berlin]]></answer>
+				<negFeedback><![CDATA[Falsch - Es steht, die oben definierten Variablen sollen im f-string verwendet werden. Die Ausgabe an sich w&auml;re nat&uuml;rlich korrekt.]]></negFeedback>
+			</item>
+			<item>
+				<answer><![CDATA[{gruss}{hauptstadt}]]></answer>
+				<negFeedback><![CDATA[Falsch - Sie haben das Leerzeichen zwischen den Worten vergessen.]]></negFeedback>
+			</item>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Die Variable definiert man mit `gruss = \"Hallo\"`, mit oder ohne Leerzeichen dazwischen.]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Die Variable heisst `hauptstadt`]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Sowohl 'Berlin' als auch \"Berlin\" w&auml;ren korrekt]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Sie m&uuml;ssen die Variable mit { } Klammern einfassen.]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Der Ausdruck <code>{hauptstadt}</code> wird durch den Inhalt der Variablen ersetzt. Dieser ist <code>Berlin</code>.]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Die Variablen im f-string bildet man mit den {} Klammern. Die L&ouml;sung lautet `{gruss} {hauptstadt}`]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>1</lineNumber>
+		<lineNumber>2</lineNumber>
+		<lineNumber>3</lineNumber>
+		<lineNumber>4</lineNumber>
+		<lineNumber>6</lineNumber>
+		<lineNumber>7</lineNumber>
+		<lineNumber>9</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>57</startPosition>
+		<startPosition>5</startPosition>
+		<startPosition>37</startPosition>
+		<startPosition>18</startPosition>
+		<startPosition>24</startPosition>
+		<startPosition>12</startPosition>
+		<startPosition>13</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>63</endPosition>
+		<endPosition>11</endPosition>
+		<endPosition>46</endPosition>
+		<endPosition>25</endPosition>
+		<endPosition>35</endPosition>
+		<endPosition>17</endPosition>
+		<endPosition>32</endPosition>
+	</gapEndPositions>
+
+</esheet>

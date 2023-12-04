@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_001_001_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>1</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>0</curDifficulty>
+
+	<tasktitle><![CDATA[venv]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Machen Sie sich mit der virtuellen Umgebung, venv, vertraut.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[# Erstelle eine virtuelle Umgebung mit dem Namen 'tutorial']]></line>
+		<line><![CDATA[$ python3 -m gap;000 tutorial]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[# Aktiviere die virtuelle Umgebung]]></line>
+		<line><![CDATA[(tutorial) $ gap;001 tutorial/bin/activate]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[# Deaktiviere die virtuelle Umgebung]]></line>
+		<line><![CDATA[(tutorial) $ gap;002]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[venv]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[source]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[deactivate]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch. Um eine virtuelle Umgebung zu erzeugen, m&uuml;ssen Sie das `venv` Kommando verwenden.]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Um eine venv zu aktivieren, verwende den `source` Befehl]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Zum deaktivieren der venv, verwende den `deactivate` Befehl]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>8</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>14</startPosition>
+		<startPosition>14</startPosition>
+		<startPosition>14</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>17</endPosition>
+		<endPosition>19</endPosition>
+		<endPosition>23</endPosition>
+	</gapEndPositions>
+
+</esheet>

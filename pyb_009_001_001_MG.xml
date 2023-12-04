@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_009_001_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>9</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[Lesen von Dateien]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[In dieser Aufgabe &uuml;ben wir, wie man Dateien liest.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> # Verlatetes Python zum Öffnen einer Datei]]></line>
+		<line><![CDATA[>>> datei = gap;000\"datei.txt\")]]></line>
+		<line><![CDATA[>>> text = datei.read()]]></line>
+		<line><![CDATA[>>> # Wichtig: die Datei muss wieder geschlossen werden]]></line>
+		<line><![CDATA[>>> gap;001]]></line>
+		<line><![CDATA[>>>]]></line>
+		<line><![CDATA[>>> # Modernes Python]]></line>
+		<line><![CDATA[>>> gap;002(\"datei.txt\") gap;003 gap;004:]]></line>
+		<line><![CDATA[...     text = datei.read()]]></line>
+		<line><![CDATA[...     # Die Datei wird hier automatisch geschlossen]]></line>
+		<line><![CDATA[...]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[open(]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[datei.close()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[with open]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[as]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[datei]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>8</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>13</startPosition>
+		<startPosition>5</startPosition>
+		<startPosition>5</startPosition>
+		<startPosition>28</startPosition>
+		<startPosition>31</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>17</endPosition>
+		<endPosition>17</endPosition>
+		<endPosition>13</endPosition>
+		<endPosition>29</endPosition>
+		<endPosition>35</endPosition>
+	</gapEndPositions>
+
+</esheet>

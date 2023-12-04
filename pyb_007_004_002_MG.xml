@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_007_004_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>7</kapitelNrTxt>
+
+	<abschnittNrTxt>4</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Vererbung und die Basisklasse]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Hier lernen wir, wie man Variablen in der Basisklasse definiert, und wie man auf diese zugreift.<br/>Achtung: Es ist manchmal verlockend, gewisse Funktionalit&auml;t mit Vererbung zu implementieren. Oftmals ist es jedoch besser, dies durch Zusammensetzung zu tun.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> class Objekt:]]></line>
+		<line><![CDATA[...     def __init__(gap;000, name):]]></line>
+		<line><![CDATA[...             gap;001 = name ]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> class Spielzeuggap;002:]]></line>
+		<line><![CDATA[...     def __init__(self, name, preis):]]></line>
+		<line><![CDATA[...             gap;003.gap;004(name)]]></line>
+		<line><![CDATA[...             gap;005 = preis]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> teddy = Spielzeug(\"teddy\", 15)]]></line>
+		<line><![CDATA[>>> teddy.gap;006]]></line>
+		<line><![CDATA[15]]></line>
+		<line><![CDATA[>>> teddy.gap;007 ]]></line>
+		<line><![CDATA['teddy']]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[self]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[self.name]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[(Objekt)]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[super()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[__init__]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[self.preis]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[preis]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[name]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>3</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>7</lineNumber>
+		<lineNumber>7</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>11</lineNumber>
+		<lineNumber>13</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>22</startPosition>
+		<startPosition>17</startPosition>
+		<startPosition>20</startPosition>
+		<startPosition>17</startPosition>
+		<startPosition>25</startPosition>
+		<startPosition>17</startPosition>
+		<startPosition>11</startPosition>
+		<startPosition>11</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>25</endPosition>
+		<endPosition>25</endPosition>
+		<endPosition>27</endPosition>
+		<endPosition>23</endPosition>
+		<endPosition>32</endPosition>
+		<endPosition>26</endPosition>
+		<endPosition>15</endPosition>
+		<endPosition>14</endPosition>
+	</gapEndPositions>
+
+</esheet>

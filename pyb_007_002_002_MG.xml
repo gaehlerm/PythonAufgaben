@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_007_002_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>7</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Massgeschneiderte Iteratoren]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[In dieser Aufgabe definieren wir massgeschneiderte Iteratoren f&uuml;r unsere Klasse.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> class MeineListe:                ]]></line>
+		<line><![CDATA[...     def __init__(self, inhalt):]]></line>
+		<line><![CDATA[...             gap;000 = inhalt]]></line>
+		<line><![CDATA[...     def gap;001:]]></line>
+		<line><![CDATA[...             self.iterator = gap;002(self.inhalt)  ]]></line>
+		<line><![CDATA[...             return self]]></line>
+		<line><![CDATA[...     def gap;003(self):]]></line>
+		<line><![CDATA[...             return next(gap;004iterator)]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> dinge = MeineListe([\"Haus\", \"Stuhl\"])]]></line>
+		<line><![CDATA[>>> dinge.gap;005]]></line>
+		<line><![CDATA[<__main__.MeineListe object at 0x000001980935C1D0>]]></line>
+		<line><![CDATA[>>> gap;006]]></line>
+		<line><![CDATA[gap;007]]></line>
+		<line><![CDATA[>>> dinge.gap;008]]></line>
+		<line><![CDATA['Stuhl']]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[self.inhalt]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[iter(self)]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[iter]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[next]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[self.]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[iter()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[dinge.next()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA['Haus']]></filling>
+			<filling><![CDATA[\"Haus\"]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[next()]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>3</lineNumber>
+		<lineNumber>4</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>7</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>11</lineNumber>
+		<lineNumber>13</lineNumber>
+		<lineNumber>14</lineNumber>
+		<lineNumber>15</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>17</startPosition>
+		<startPosition>13</startPosition>
+		<startPosition>33</startPosition>
+		<startPosition>13</startPosition>
+		<startPosition>29</startPosition>
+		<startPosition>11</startPosition>
+		<startPosition>5</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>11</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>27</endPosition>
+		<endPosition>22</endPosition>
+		<endPosition>36</endPosition>
+		<endPosition>16</endPosition>
+		<endPosition>33</endPosition>
+		<endPosition>16</endPosition>
+		<endPosition>16</endPosition>
+		<endPosition>6</endPosition>
+		<endPosition>16</endPosition>
+	</gapEndPositions>
+
+</esheet>

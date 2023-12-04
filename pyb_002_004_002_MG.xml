@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_002_004_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>2</kapitelNrTxt>
+
+	<abschnittNrTxt>4</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[Bool'sche Werte und Strings]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Lernen Sie Bool'sche Werte mit Strings zu kombinieren.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> # Bestimmen sie die Länge des folgenden Strings]]></line>
+		<line><![CDATA[>>> gap;000(\"Dachs\")]]></line>
+		<line><![CDATA[gap;001]]></line>
+		<line><![CDATA[>>> # Verwenden Sie in den nächsten Lücken Eigenschaften der Variablen `name`]]></line>
+		<line><![CDATA[>>> name = \"Anna\"]]></line>
+		<line><![CDATA[>>> if gap;002 < 5:]]></line>
+		<line><![CDATA[...     print(f\"Der Name gap;003 ist sehr kurz\")]]></line>
+		<line><![CDATA[Der Name gap;004 ist sehr kurz]]></line>
+		<line><![CDATA[>>> Definieren Sie eine if else Schleife]]></line>
+		<line><![CDATA[>>> name = \"Frank\"]]></line>
+		<line><![CDATA[>>> gap;005 name == \"Michael\":]]></line>
+		<line><![CDATA[...     print(\"Michael\")]]></line>
+		<line><![CDATA[... gap;006]]></line>
+		<line><![CDATA[...     print(\"Frank\")]]></line>
+		<line><![CDATA[gap;007]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[len]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[5]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[len(name)]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[{name}]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[Anna]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[if]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[else:]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[Frank]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[else]]></answer>
+				<negFeedback><![CDATA[Falsch - Sie haben den Doppelpunkt vergessen, <code>else:</code>]]></negFeedback>
+			</item>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>3</lineNumber>
+		<lineNumber>6</lineNumber>
+		<lineNumber>7</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>11</lineNumber>
+		<lineNumber>13</lineNumber>
+		<lineNumber>15</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>5</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>8</startPosition>
+		<startPosition>26</startPosition>
+		<startPosition>10</startPosition>
+		<startPosition>5</startPosition>
+		<startPosition>5</startPosition>
+		<startPosition>1</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>7</endPosition>
+		<endPosition>1</endPosition>
+		<endPosition>16</endPosition>
+		<endPosition>31</endPosition>
+		<endPosition>13</endPosition>
+		<endPosition>6</endPosition>
+		<endPosition>9</endPosition>
+		<endPosition>5</endPosition>
+	</gapEndPositions>
+
+</esheet>

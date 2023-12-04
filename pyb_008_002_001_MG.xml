@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_008_002_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>8</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[Realistischer Test]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Nun schreiben wir einen etwas realistischeren test, bei dem wir wirklich etwas pr&uuml;fen.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[class Fernseher:]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;def __init__(self):]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.angeschaltet = False]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;def schalte_an(self):]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.angeschaltet = True]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[def TV_ist_an_test():]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;mein_fernseher = gap;000]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;mein_fernseher.gap;001]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;gap;002 mein_fernseher.gap;003]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[Fernseher()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[schalte_an()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[assert]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[angeschaltet]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>9</lineNumber>
+		<lineNumber>10</lineNumber>
+		<lineNumber>11</lineNumber>
+		<lineNumber>11</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>22</startPosition>
+		<startPosition>20</startPosition>
+		<startPosition>5</startPosition>
+		<startPosition>27</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>32</endPosition>
+		<endPosition>31</endPosition>
+		<endPosition>10</endPosition>
+		<endPosition>38</endPosition>
+	</gapEndPositions>
+
+</esheet>

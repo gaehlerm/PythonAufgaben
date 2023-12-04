@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_002_001_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>2</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[Strings]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Machen Sie sich mit Strings vertraut]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> # Vervollständigen Sie a zu einem string]]></line>
+		<line><![CDATA[>>> a = gap;000Sei's drumgap;001 ]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[>>> # Verfollständigen Sie b zu einem string]]></line>
+		<line><![CDATA[>>> b = gap;002Er sagte: \"Hallo Welt!\"gap;003]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[>>> # Vervollständigen Sie c zu einem string der über mehrere Zeilen reicht]]></line>
+		<line><![CDATA[>>> c = gap;004Hallo Python]]></line>
+		<line><![CDATA[... Tschüss Excel\"\"\"]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[\"]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[\"]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[']]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[']]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[\"\"\"]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[Richtig]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+			<item>
+				<answer><![CDATA[']]></answer>
+				<negFeedback><![CDATA[Falsch - `'` kann hier nicht verwendet werden, da dies schon im String selbst verwendet wird. Stattdessen muss ein doppeltes Anf&uuml;hrungszeichen `\"` verwendet werden.]]></negFeedback>
+			</item>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[']]></answer>
+				<negFeedback><![CDATA[Falsch - `'` kann hier nicht verwendet werden, da dies schon im String selbst verwendet wird. Stattdessen muss ein doppeltes Anf&uuml;hrungszeichen `\"` verwendet werden.]]></negFeedback>
+			</item>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[\"]]></answer>
+				<negFeedback><![CDATA[Falsch - Da bereits im String ein doppeltes Anf&uuml;hrungszeichen verwendet wird, muss zur Definition des Strings ein einfaches Anf&uuml;hrungszeichen verwendet werden.]]></negFeedback>
+			</item>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[\"]]></answer>
+				<negFeedback><![CDATA[Falsch - Da bereits im String ein doppeltes Anf&uuml;hrungszeichen verwendet wird, muss zur Definition des Strings ein einfaches Anf&uuml;hrungszeichen verwendet werden.]]></negFeedback>
+			</item>
+		</gap>
+		<gap>
+			<item>
+				<answer><![CDATA[''']]></answer>
+				<negFeedback><![CDATA[Falsch - Da zum Abschluss des Strings doppelte Anf&uuml;hrungszeichen, \"\"\", verwendet wurden, m&uuml;ssen diese auch zu Beginn des Strings verwendet werden.]]></negFeedback>
+			</item>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Die richtige L&ouml;sung ist `\"`.]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Es muss ein doppeltes Anf&uuml;hrungszeichen, `\"`, verwendet werden.]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Die richtige L&ouml;sung ist ein einfaches Anf&uuml;hrungszeichen, ']]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - Die richtige L&ouml;sung ist ein einfaches Anf&uuml;hrungszeichen, ']]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[Falsch - ein dreifaches Anf&uuml;hrungszeichen, \"\"\",  ist korrekt.]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>2</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>8</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>9</startPosition>
+		<startPosition>20</startPosition>
+		<startPosition>9</startPosition>
+		<startPosition>33</startPosition>
+		<startPosition>9</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>9</endPosition>
+		<endPosition>20</endPosition>
+		<endPosition>9</endPosition>
+		<endPosition>33</endPosition>
+		<endPosition>11</endPosition>
+	</gapEndPositions>
+
+</esheet>

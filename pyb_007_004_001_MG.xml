@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_007_004_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>7</kapitelNrTxt>
+
+	<abschnittNrTxt>4</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Vererbung]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Die Spielzeug Klasse soll von der Objekt Klasse vereben. Die Frage dabei ist, wie der Konstruktor der Objekt Klasse aufgerufen wird.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> class Objekt:]]></line>
+		<line><![CDATA[...     def __init__(self, name):]]></line>
+		<line><![CDATA[...             self.name = name]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> # Spielzeug soll von Objekt vererben]]></line>
+		<line><![CDATA[>>> class Spielzeuggap;000:]]></line>
+		<line><![CDATA[...     def gap;001(self, name, preis):]]></line>
+		<line><![CDATA[...             gap;002.gap;003gap;004]]></line>
+		<line><![CDATA[...             self.preis = preis]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> teddy = Spielzeug(\"brummbaer\", 25)]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[(Objekt)]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[__init__]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[super()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[__init__]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[(name)]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>6</lineNumber>
+		<lineNumber>7</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>8</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>20</startPosition>
+		<startPosition>13</startPosition>
+		<startPosition>17</startPosition>
+		<startPosition>25</startPosition>
+		<startPosition>33</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>27</endPosition>
+		<endPosition>20</endPosition>
+		<endPosition>23</endPosition>
+		<endPosition>32</endPosition>
+		<endPosition>38</endPosition>
+	</gapEndPositions>
+
+</esheet>

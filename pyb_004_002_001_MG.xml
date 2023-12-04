@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_004_002_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>4</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[Zeit]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Gehen Sie mit der Zeit]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> import time]]></line>
+		<line><![CDATA[>>> time.gap;000]]></line>
+		<line><![CDATA['Sun Oct  9 10:22:21 2023']]></line>
+		<line><![CDATA[>>> import datetime]]></line>
+		<line><![CDATA[>>> jetzt = datetime.datetime.gap;001]]></line>
+		<line><![CDATA[>>> jetzt]]></line>
+		<line><![CDATA[datetime.datetime(2023, 10, 9, 10, 22, 36, 572480)]]></line>
+		<line><![CDATA[>>> jetzt.gap;002]]></line>
+		<line><![CDATA[2023]]></line>
+		<line><![CDATA[>>> jetzt.gap;003]]></line>
+		<line><![CDATA[36]]></line>
+		<line><![CDATA[>>> millenium = datetime.gap;004(2000, 1, 1, 0, 0, 0)]]></line>
+		<line><![CDATA[>>> jetzt - millenium]]></line>
+		<line><![CDATA[datetime.timedelta(days=8682, seconds=37356, microseconds=572480)]]></line>
+		<line><![CDATA[>>> # Diese Aufgabe wurde an einem Montag geschrieben]]></line>
+		<line><![CDATA[>>> jetzt.weekday()]]></line>
+		<line><![CDATA[gap;005]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[ctime()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[now()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[year]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[second ]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[datetime]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[0]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>10</lineNumber>
+		<lineNumber>12</lineNumber>
+		<lineNumber>17</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>10</startPosition>
+		<startPosition>31</startPosition>
+		<startPosition>11</startPosition>
+		<startPosition>11</startPosition>
+		<startPosition>26</startPosition>
+		<startPosition>1</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>16</endPosition>
+		<endPosition>35</endPosition>
+		<endPosition>14</endPosition>
+		<endPosition>17</endPosition>
+		<endPosition>33</endPosition>
+		<endPosition>1</endPosition>
+	</gapEndPositions>
+
+</esheet>

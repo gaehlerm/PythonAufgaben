@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_006_002_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>6</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Kleine Quadrate]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Die Erzeugung einer Liste wurde mit einer Bedingung verkn&uuml;pft und dadurch zus&auml;tzlich erschwert.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> def kleine_quadrate(zahlen): ]]></line>
+		<line><![CDATA[...     gap;000       ]]></line>
+		<line><![CDATA[...     for gap;001 in zahlen:      ]]></line>
+		<line><![CDATA[...             if zahl*zahl < 5:]]></line>
+		<line><![CDATA[...                     kleine_zahlen.append(zahl)]]></line>
+		<line><![CDATA[...     return kleine_zahlen]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> kleine_quadrate([1,2,3,4])]]></line>
+		<line><![CDATA[gap;002]]></line>
+		<line><![CDATA[>>> # Der folgende Code macht genau das Selbe]]></line>
+		<line><![CDATA[>>> def quadrate(zahlen):]]></line>
+		<line><![CDATA[...     gap;003 [z for z in zahlen gap;004 z*z<5]]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> quadrate([1,2,3,4])]]></line>
+		<line><![CDATA[[1, 2]]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[kleine_zahlen = []]]></filling>
+			<filling><![CDATA[kleine_zahlen=[]]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[zahl]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[[1, 2]]]></filling>
+			<filling><![CDATA[[1,2]]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[return]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[if]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>3</lineNumber>
+		<lineNumber>9</lineNumber>
+		<lineNumber>12</lineNumber>
+		<lineNumber>12</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>9</startPosition>
+		<startPosition>13</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>9</startPosition>
+		<startPosition>35</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>26</endPosition>
+		<endPosition>16</endPosition>
+		<endPosition>6</endPosition>
+		<endPosition>14</endPosition>
+		<endPosition>36</endPosition>
+	</gapEndPositions>
+
+</esheet>

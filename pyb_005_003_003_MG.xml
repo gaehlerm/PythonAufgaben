@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_005_003_003_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>5</kapitelNrTxt>
+
+	<abschnittNrTxt>3</abschnittNrTxt>
+
+	<beispielNrTxt>3</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[Fr&uuml;hzeitige R&uuml;ckkehr]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Wir betrachen Funktionen, welche fr&uuml;hzeitig einen Wert zur&uuml;ckgeben.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> def besteht_aus_ad(strings):]]></line>
+		<line><![CDATA[...    for s in strings:]]></line>
+		<line><![CDATA[...        if set(s) == set(\"ad\"):]]></line>
+		<line><![CDATA[...            return s]]></line>
+		<line><![CDATA[...    return Keine]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> gap;000(\"hallo\", \"du\", \"da\")]]></line>
+		<line><![CDATA[gap;001]]></line>
+		<line><![CDATA[>>> besteht_aus_ad(\"gap;002\", \"da\")]]></line>
+		<line><![CDATA[gap;003]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[besteht_aus_ad]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[da]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[daaa]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[daaa]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>7</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>9</lineNumber>
+		<lineNumber>10</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>5</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>21</startPosition>
+		<startPosition>1</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>18</endPosition>
+		<endPosition>2</endPosition>
+		<endPosition>24</endPosition>
+		<endPosition>4</endPosition>
+	</gapEndPositions>
+
+</esheet>

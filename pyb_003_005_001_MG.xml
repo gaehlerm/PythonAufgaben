@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_003_005_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>3</kapitelNrTxt>
+
+	<abschnittNrTxt>5</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>0</curDifficulty>
+
+	<tasktitle><![CDATA[Iterationen, break und enumerate]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[<b>Attention:</b> You have not entered anything in the <i>Task&nbsp;text</i>&nbsp;field of the <i>Data&nbsp;input</i>&nbsp;section yet or you have not updated the worksheet afterwards using the <i>Create&nbsp;eSheet</i>&nbsp;button!]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> tiere = \"löwe\", \"gans\", \"hund\"]]></line>
+		<line><![CDATA[>>> gap;000 tier in tiere:]]></line>
+		<line><![CDATA[...     print(tier)]]></line>
+		<line><![CDATA[löwe]]></line>
+		<line><![CDATA[gans]]></line>
+		<line><![CDATA[hund]]></line>
+		<line><![CDATA[>>> for i,tier in gap;001(tiere):]]></line>
+		<line><![CDATA[...     print(f\"{i} {tier}\")]]></line>
+		<line><![CDATA[0 löwe]]></line>
+		<line><![CDATA[1 gans]]></line>
+		<line><![CDATA[2 hund]]></line>
+		<line><![CDATA[>>> # der folgende for loop soll aufhören Tiere auszugeben, wenn die gans gefunden wurde]]></line>
+		<line><![CDATA[>>> for tier in tiere:]]></line>
+		<line><![CDATA[...     print(tier, end=\" \")]]></line>
+		<line><![CDATA[...     if tier == \"gans\":]]></line>
+		<line><![CDATA[...         gap;002]]></line>
+		<line><![CDATA[löwe gans]]></line>
+		<line><![CDATA[]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[for]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[enumerate]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[break]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>2</lineNumber>
+		<lineNumber>7</lineNumber>
+		<lineNumber>16</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>5</startPosition>
+		<startPosition>19</startPosition>
+		<startPosition>13</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>7</endPosition>
+		<endPosition>27</endPosition>
+		<endPosition>17</endPosition>
+	</gapEndPositions>
+
+</esheet>

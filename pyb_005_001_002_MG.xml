@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_005_001_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>5</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[datetime]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Wir machen uns mit der datetime Bibliothek vertraut.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> gap;000 gap;001 gap;002 date]]></line>
+		<line><![CDATA[>>> wochentage = [\"Montag\", \"Dienstag\", \"Mittwoch\", \"Donnerstag\", \"Freitag\", \"Samstag\", \"Sonntag\"]]]></line>
+		<line><![CDATA[>>> weihnachten = gap;0032024, 12, 25)]]></line>
+		<line><![CDATA[>>> weihnachts_tag_nummer = weihnachten.gap;004]]></line>
+		<line><![CDATA[>>> weihnachts_tag_nummer]]></line>
+		<line><![CDATA[2]]></line>
+		<line><![CDATA[>>> weihnachts_tag_string = wochentage[weihnachts_tag_nummer]]]></line>
+		<line><![CDATA[>>> weihnachts_tag_string]]></line>
+		<line><![CDATA[gap;005]]></line>
+		<line><![CDATA[>>>]]></line>
+		<line><![CDATA[>>> import calendar]]></line>
+		<line><![CDATA[>>> list(calendar.month_name)]]></line>
+		<line><![CDATA[['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']]]></line>
+		<line><![CDATA[>>> calendar.gap;006[datetime.gap;007.month]   ]]></line>
+		<line><![CDATA['November']]></line>
+		<line><![CDATA[>>> ]]></line>
+		<line><![CDATA[]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[from]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[datetime]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[import]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[date(]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[weekday()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA['Mittwoch']]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[month_name]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[now()]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>1</lineNumber>
+		<lineNumber>1</lineNumber>
+		<lineNumber>1</lineNumber>
+		<lineNumber>3</lineNumber>
+		<lineNumber>4</lineNumber>
+		<lineNumber>9</lineNumber>
+		<lineNumber>14</lineNumber>
+		<lineNumber>14</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>5</startPosition>
+		<startPosition>10</startPosition>
+		<startPosition>19</startPosition>
+		<startPosition>19</startPosition>
+		<startPosition>41</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>14</startPosition>
+		<startPosition>34</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>8</endPosition>
+		<endPosition>17</endPosition>
+		<endPosition>24</endPosition>
+		<endPosition>23</endPosition>
+		<endPosition>49</endPosition>
+		<endPosition>10</endPosition>
+		<endPosition>23</endPosition>
+		<endPosition>38</endPosition>
+	</gapEndPositions>
+
+</esheet>

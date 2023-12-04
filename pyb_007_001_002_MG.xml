@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_007_001_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>7</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Funktionen in der Klasse]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[In dieser Aufgabe definieren wir Funktionen innerhalb einer Klasse.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> gap;000 Preise:                         ]]></line>
+		<line><![CDATA[...     def gap;001(gap;002, preise):]]></line>
+		<line><![CDATA[...         # Die Klass Variable muss nicht unbedingt gleich heissen wie das ]]></line>
+		<line><![CDATA[...         # Funktionsargument. Wir machen es hier jedoch so.]]></line>
+		<line><![CDATA[...         gap;003 = gap;004]]></line>
+		<line><![CDATA[...     def billige_preise(gap;005):]]></line>
+		<line><![CDATA[...         billige_preise = []]]></line>
+		<line><![CDATA[...         gap;006 preis in gap;007:]]></line>
+		<line><![CDATA[...             if preis < 5:]]></line>
+		<line><![CDATA[...                 billige_preise.append(preis) ]]></line>
+		<line><![CDATA[...         return billige_preise     ]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> preise = Preise([7,3,2,1,6])]]></line>
+		<line><![CDATA[>>> print(gap;008)]]></line>
+		<line><![CDATA[gap;009]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[class]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[__init__]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[self]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[self.preise]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[preise]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[self]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[for]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[self.preise]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[preise.billige_preise()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[[3, 2, 1]]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>1</lineNumber>
+		<lineNumber>2</lineNumber>
+		<lineNumber>2</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>6</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>14</lineNumber>
+		<lineNumber>15</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>5</startPosition>
+		<startPosition>13</startPosition>
+		<startPosition>22</startPosition>
+		<startPosition>13</startPosition>
+		<startPosition>27</startPosition>
+		<startPosition>28</startPosition>
+		<startPosition>13</startPosition>
+		<startPosition>26</startPosition>
+		<startPosition>11</startPosition>
+		<startPosition>1</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>9</endPosition>
+		<endPosition>20</endPosition>
+		<endPosition>25</endPosition>
+		<endPosition>23</endPosition>
+		<endPosition>32</endPosition>
+		<endPosition>31</endPosition>
+		<endPosition>15</endPosition>
+		<endPosition>36</endPosition>
+		<endPosition>33</endPosition>
+		<endPosition>9</endPosition>
+	</gapEndPositions>
+
+</esheet>

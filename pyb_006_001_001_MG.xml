@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_006_001_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>6</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[Funktionales Programmieren]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Sie werden damit vertraut, wie man in Python funktional programmiert.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> primzahlen = [2,3,5]]]></line>
+		<line><![CDATA[>>> def quadriere_primzahlen():]]></line>
+		<line><![CDATA[...     quadrierte_primzahlen = []]]></line>
+		<line><![CDATA[...     for p in primzahlen:]]></line>
+		<line><![CDATA[...         quadrierte_primzahlen.append(p*p)]]></line>
+		<line><![CDATA[...     return quadrierte_primzahlen]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> quadriere_primzahlen()[1]]]></line>
+		<line><![CDATA[gap;000]]></line>
+		<line><![CDATA[>>> [p*p gap;001 p gap;002 primzahlen[::-1]] ]]></line>
+		<line><![CDATA[[gap;003, 9, 4]]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[9]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[for]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[in]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[25]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>9</lineNumber>
+		<lineNumber>10</lineNumber>
+		<lineNumber>10</lineNumber>
+		<lineNumber>11</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>1</startPosition>
+		<startPosition>10</startPosition>
+		<startPosition>16</startPosition>
+		<startPosition>2</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>1</endPosition>
+		<endPosition>12</endPosition>
+		<endPosition>17</endPosition>
+		<endPosition>3</endPosition>
+	</gapEndPositions>
+
+</esheet>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_007_001_003_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>7</kapitelNrTxt>
+
+	<abschnittNrTxt>1</abschnittNrTxt>
+
+	<beispielNrTxt>3</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Methoden innerhalb von Klassen verwenden]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Es ist gebr&auml;uchlich, Methoden innerhalb von Klassen zu verwenden. So kann die Funktionalit&auml;t einer Klasse aufgebaut werden.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> gap;000 Preise:                        ]]></line>
+		<line><![CDATA[...     def gap;001(self, preise):]]></line>
+		<line><![CDATA[...         self.preise = gap;002     ]]></line>
+		<line><![CDATA[...     gap;003 billiger_preis(self, preis):]]></line>
+		<line><![CDATA[...         return preis < 5]]></line>
+		<line><![CDATA[...     def billige_preise(self):]]></line>
+		<line><![CDATA[...         for preis in self.preise:]]></line>
+		<line><![CDATA[...             if gap;004gap;005(preis): ]]></line>
+		<line><![CDATA[...                 print(preis)]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[>>> preise = Preise([3,6,4,8])]]></line>
+		<line><![CDATA[>>> preise.gap;006              ]]></line>
+		<line><![CDATA[3]]></line>
+		<line><![CDATA[4]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[class]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[__init__]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[preise]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[def]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[self.]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[billiger_preis]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[billige_preise()]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>1</lineNumber>
+		<lineNumber>2</lineNumber>
+		<lineNumber>3</lineNumber>
+		<lineNumber>4</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>12</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>5</startPosition>
+		<startPosition>13</startPosition>
+		<startPosition>27</startPosition>
+		<startPosition>9</startPosition>
+		<startPosition>20</startPosition>
+		<startPosition>25</startPosition>
+		<startPosition>12</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>9</endPosition>
+		<endPosition>20</endPosition>
+		<endPosition>32</endPosition>
+		<endPosition>11</endPosition>
+		<endPosition>24</endPosition>
+		<endPosition>38</endPosition>
+		<endPosition>27</endPosition>
+	</gapEndPositions>
+
+</esheet>

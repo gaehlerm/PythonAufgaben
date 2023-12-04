@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_002_006_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>2</kapitelNrTxt>
+
+	<abschnittNrTxt>6</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>1</curDifficulty>
+
+	<tasktitle><![CDATA[Loops und Strings]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[<b>Attention:</b> You have not entered anything in the <i>Task&nbsp;text</i>&nbsp;field of the <i>Data&nbsp;input</i>&nbsp;section yet or you have not updated the worksheet afterwards using the <i>Create&nbsp;eSheet</i>&nbsp;button!]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> for c in \"hi\":]]></line>
+		<line><![CDATA[...     print(c)]]></line>
+		<line><![CDATA[gap;000]]></line>
+		<line><![CDATA[gap;001]]></line>
+		<line><![CDATA[>>> for i in gap;002:]]></line>
+		<line><![CDATA[...     print(i)]]></line>
+		<line><![CDATA[0]]></line>
+		<line><![CDATA[1]]></line>
+		<line><![CDATA[2]]></line>
+		<line><![CDATA[>>> list(gap;003(\"vorwärts\"))]]></line>
+		<line><![CDATA[['s', 't', 'r', 'ä', 'w', 'r', 'o', 'v']]]></line>
+		<line><![CDATA[>>> for rang, medallie in gap;004([\"Gold\", \"Silber\", \"Bronze\"]):]]></line>
+		<line><![CDATA[...     print(f\"gap;005. Platz: {medallie}\")]]></line>
+		<line><![CDATA[1. Platz: Gold]]></line>
+		<line><![CDATA[2. Platz: Silber]]></line>
+		<line><![CDATA[3. Platz: Bronze]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[h]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[i]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[range(3)]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[reversed]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[enumerate]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[{rang+1}]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>3</lineNumber>
+		<lineNumber>4</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>10</lineNumber>
+		<lineNumber>12</lineNumber>
+		<lineNumber>13</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>1</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>14</startPosition>
+		<startPosition>10</startPosition>
+		<startPosition>27</startPosition>
+		<startPosition>17</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>1</endPosition>
+		<endPosition>1</endPosition>
+		<endPosition>21</endPosition>
+		<endPosition>17</endPosition>
+		<endPosition>35</endPosition>
+		<endPosition>24</endPosition>
+	</gapEndPositions>
+
+</esheet>

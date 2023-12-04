@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_003_004_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>3</kapitelNrTxt>
+
+	<abschnittNrTxt>4</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Listen Befehle]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Hier behandeln wir die Befehle <code>in, sort</code> und <code>reverse</code>.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> a = [True, 3, \"hallo\"]]]></line>
+		<line><![CDATA[>>> # Prüfe ob \"hallo\" in a ist]]></line>
+		<line><![CDATA[>>> \"hallo\" gap;000 a]]></line>
+		<line><![CDATA[gap;001]]></line>
+		<line><![CDATA[>>> False in a]]></line>
+		<line><![CDATA[gap;002]]></line>
+		<line><![CDATA[>>> b = [11, 1, 8]]]></line>
+		<line><![CDATA[>>> # sortiere die Liste b]]></line>
+		<line><![CDATA[>>> b.gap;003]]></line>
+		<line><![CDATA[>>> b]]></line>
+		<line><![CDATA[[1, 8, 11]]]></line>
+		<line><![CDATA[>>> # kehre die Liste b um]]></line>
+		<line><![CDATA[>>> b.gap;004]]></line>
+		<line><![CDATA[>>> b]]></line>
+		<line><![CDATA[[11, 8, 1]]]></line>
+		<line><![CDATA[>>> c = b]]></line>
+		<line><![CDATA[>>> b.sort()]]></line>
+		<line><![CDATA[>>> c]]></line>
+		<line><![CDATA[gap;005]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[in]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[True]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[False]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[sort()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[reverse()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[[1, 8, 11]]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>3</lineNumber>
+		<lineNumber>4</lineNumber>
+		<lineNumber>6</lineNumber>
+		<lineNumber>9</lineNumber>
+		<lineNumber>13</lineNumber>
+		<lineNumber>19</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>13</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>7</startPosition>
+		<startPosition>7</startPosition>
+		<startPosition>1</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>14</endPosition>
+		<endPosition>4</endPosition>
+		<endPosition>5</endPosition>
+		<endPosition>12</endPosition>
+		<endPosition>15</endPosition>
+		<endPosition>10</endPosition>
+	</gapEndPositions>
+
+</esheet>
