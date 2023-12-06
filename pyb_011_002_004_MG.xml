@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_011_002_004_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>11</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>4</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Matrizen Operationen]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[Hier lernen wir, wie man in numpy Matrizen invertiert und multipliziert.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> import numpy as np]]></line>
+		<line><![CDATA[>>> A = [[1,2],[3,4]]]]></line>
+		<line><![CDATA[>>> B = gap;000.inv(A)]]></line>
+		<line><![CDATA[>>> B]]></line>
+		<line><![CDATA[array([[-2. ,  1. ],]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ 1.5, -0.5]])]]></line>
+		<line><![CDATA[>>> A * B]]></line>
+		<line><![CDATA[array([[-2. ,  gap;001 ],]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ gap;002, -2. ]])]]></line>
+		<line><![CDATA[>>> A gap;003 B]]></line>
+		<line><![CDATA[array([[gap;004.0000000e+00, 0.0000000e+00],]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.8817842e-16, 1.0000000e+00]])]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[np.linalg]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[2.]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[4.5]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[@]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[1]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>3</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>9</lineNumber>
+		<lineNumber>10</lineNumber>
+		<lineNumber>11</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>9</startPosition>
+		<startPosition>16</startPosition>
+		<startPosition>10</startPosition>
+		<startPosition>7</startPosition>
+		<startPosition>9</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>17</endPosition>
+		<endPosition>17</endPosition>
+		<endPosition>12</endPosition>
+		<endPosition>7</endPosition>
+		<endPosition>9</endPosition>
+	</gapEndPositions>
+
+</esheet>

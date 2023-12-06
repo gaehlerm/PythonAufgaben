@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_010_003_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>10</kapitelNrTxt>
+
+	<abschnittNrTxt>3</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Test fixture]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[In dieser &Uuml;bung schreiben wir tests mit fixturen.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[import pytest]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[# definiere eine Test Fixture]]></line>
+		<line><![CDATA[gap;000.gap;001]]></line>
+		<line><![CDATA[gap;002 setup():]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(\"Output in setup\")]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[def test_methode1(gap;003):]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;print(\"Output in test\")]]></line>
+		<line><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;assert False]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[# output when running the test:]]></line>
+		<line><![CDATA[...]]></line>
+		<line><![CDATA[--------------------------------- Captured stdout setup ---------------------------------]]></line>
+		<line><![CDATA[Output in gap;004]]></line>
+		<line><![CDATA[--------------------------------- Captured stdout call --------------------------------- ]]></line>
+		<line><![CDATA[Output in gap;005]]></line>
+		<line><![CDATA[]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[@pytest]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[fixture()]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[def]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[setup]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[setup]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[test]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>4</lineNumber>
+		<lineNumber>4</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>15</lineNumber>
+		<lineNumber>17</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>1</startPosition>
+		<startPosition>9</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>19</startPosition>
+		<startPosition>11</startPosition>
+		<startPosition>11</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>7</endPosition>
+		<endPosition>17</endPosition>
+		<endPosition>3</endPosition>
+		<endPosition>23</endPosition>
+		<endPosition>15</endPosition>
+		<endPosition>14</endPosition>
+	</gapEndPositions>
+
+</esheet>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_011_002_001_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>11</kapitelNrTxt>
+
+	<abschnittNrTxt>2</abschnittNrTxt>
+
+	<beispielNrTxt>1</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Einf&uuml;hrung in numpy arrays]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[<b>Attention:</b> You have not entered anything in the <i>Task&nbsp;text</i>&nbsp;field of the <i>Data&nbsp;input</i>&nbsp;section yet or you have not updated the worksheet afterwards using the <i>Create&nbsp;eSheet</i>&nbsp;button!]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[>>> import numpy as gap;000]]></line>
+		<line><![CDATA[>>> a = gap;001gap;002([4, 2, 3, 1])]]></line>
+		<line><![CDATA[>>> len(a)]]></line>
+		<line><![CDATA[gap;003]]></line>
+		<line><![CDATA[>>> np.sort(a)]]></line>
+		<line><![CDATA[array([1, 2, 3, 4])]]></line>
+		<line><![CDATA[>>> a]]></line>
+		<line><![CDATA[array([gap;004])]]></line>
+		<line><![CDATA[>>> a.sort()]]></line>
+		<line><![CDATA[>>> a]]></line>
+		<line><![CDATA[array([gap;005])]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[np]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[np.]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[array]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[4]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[4, 2, 3, 1]]></filling>
+			<filling><![CDATA[4,2,3,1]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[1, 2, 3, 4]]></filling>
+			<filling><![CDATA[1,2,3,4]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>1</lineNumber>
+		<lineNumber>2</lineNumber>
+		<lineNumber>2</lineNumber>
+		<lineNumber>4</lineNumber>
+		<lineNumber>8</lineNumber>
+		<lineNumber>11</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>21</startPosition>
+		<startPosition>9</startPosition>
+		<startPosition>12</startPosition>
+		<startPosition>1</startPosition>
+		<startPosition>8</startPosition>
+		<startPosition>8</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>22</endPosition>
+		<endPosition>11</endPosition>
+		<endPosition>16</endPosition>
+		<endPosition>1</endPosition>
+		<endPosition>17</endPosition>
+		<endPosition>17</endPosition>
+	</gapEndPositions>
+
+</esheet>

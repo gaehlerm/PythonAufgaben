@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<esheet>
+
+	<filename><![CDATA[pyb_011_003_002_MG.xml]]></filename>
+
+	<creatorID><![CDATA[MG]]></creatorID>
+
+	<kapitelNrTxt>11</kapitelNrTxt>
+
+	<abschnittNrTxt>3</abschnittNrTxt>
+
+	<beispielNrTxt>2</beispielNrTxt>
+
+	<curDifficulty>2</curDifficulty>
+
+	<tasktitle><![CDATA[Unterschiedliche Verteilungen]]></tasktitle>
+
+	<orientedCommand><![CDATA[]]></orientedCommand>
+
+	<aufgabeStartText><![CDATA[In dieser Aufgabe sehen wir zwei unterschiedliche Verteilungen von Zufallszahlen. Die Gleichverteilung und die Normalverteilung. F&uuml;hren Sie den Code auf Ihrem Computer aus, damit Sie die Verteilungen sehen.]]></aufgabeStartText>
+
+	<codelines>
+		<line><![CDATA[import numpy as np]]></line>
+		<line><![CDATA[import matplotlib.pyplot as plt]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[# Gleichverteilte Zufallszahlen zwischen 0 und 10]]></line>
+		<line><![CDATA[plt.gap;000(np.gap;001.randint(0, 10, size=1000))]]></line>
+		<line><![CDATA[plt.show()]]></line>
+		<line><![CDATA[]]></line>
+		<line><![CDATA[# Normalverteilte Zufallszahlen mit Mittelwert 0 und Standardabweichung 1]]></line>
+		<line><![CDATA[plt.hist(np.random.gap;002(0, 1, size=1000))]]></line>
+		<line><![CDATA[plt.gap;003]]></line>
+	</codelines>
+
+	<numberCodelines><![CDATA[codelines.length]]></numberCodelines>
+
+	<erlaeuterungText><![CDATA[]]></erlaeuterungText>
+
+	<gapFillings>
+		<gap>
+			<filling><![CDATA[hist]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[random]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[normal]]></filling>
+		</gap>
+		<gap>
+			<filling><![CDATA[show()]]></filling>
+		</gap>
+	</gapFillings>
+
+	<posFeedbacks>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+		<gap>
+			<posFeedback><![CDATA[]]></posFeedback>
+		</gap>
+	</posFeedbacks>
+
+	<negFeedbacks>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+		<gap>
+		</gap>
+	</negFeedbacks>
+
+	<unspecificNegFeedbacks>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+		<gap>
+			<unspecificNegFeedback><![CDATA[]]></unspecificNegFeedback>
+		</gap>
+	</unspecificNegFeedbacks>
+
+	<possibleGapPositions>
+		<combination>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+		</combination>
+		<combination>
+			<gapSelection>1</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>0</gapSelection>
+			<gapSelection>1</gapSelection>
+		</combination>
+	</possibleGapPositions>
+
+	<gapLineNumbers>
+		<lineNumber>5</lineNumber>
+		<lineNumber>5</lineNumber>
+		<lineNumber>9</lineNumber>
+		<lineNumber>10</lineNumber>
+	</gapLineNumbers>
+
+	<gapStartPositions>
+		<startPosition>5</startPosition>
+		<startPosition>13</startPosition>
+		<startPosition>20</startPosition>
+		<startPosition>5</startPosition>
+	</gapStartPositions>
+
+	<gapEndPositions>
+		<endPosition>8</endPosition>
+		<endPosition>18</endPosition>
+		<endPosition>25</endPosition>
+		<endPosition>10</endPosition>
+	</gapEndPositions>
+
+</esheet>
